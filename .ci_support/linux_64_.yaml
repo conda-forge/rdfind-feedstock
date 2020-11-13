@@ -9,9 +9,9 @@ cxx_compiler:
 cxx_compiler_version:
 - '7'
 docker_image:
-- condaforge/linux-anvil-comp7
+- quay.io/condaforge/linux-anvil-comp7
 nettle:
-- '3.4'
+- '3.6'
 pin_run_as_build:
   nettle:
     max_pin: x.x
