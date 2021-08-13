@@ -1,4 +1,4 @@
-{% set version = "1.4.1" %}
+{% set version = "1.5.0" %}
 
 package:
   name: rdfind
@@ -6,11 +6,11 @@ package:
 
 source:
   url: https://github.com/pauldreik/rdfind/archive/releases/{{ version }}.tar.gz
-  sha256: 3ee9ae4765b20734b197ccb76107a8c8f4f1f443b4d6afc742ca340aeccd4684
+  sha256: 5abf0095aef194f0174614f9a339f0f0f0eb89a27e27ccd5c2aa76b411894f08
 
 build:
-  number: 2
-  skip: True  # [win]
+  number: 0
+  skip: true  # [win]
 
 requirements:
   build:
@@ -33,10 +33,7 @@ about:
   license: GPL-2.0-or-later
   license_family: GPL
   license_file: COPYING
-  summary:
-    Rdfind is a program that finds duplicate files. It is useful for
-    compressing backup directories or just finding duplicate files. It compares
-    files based on their content, NOT on their file names.
+  summary: Rdfind is a program that finds duplicate files. It is useful for compressing backup directories or just finding duplicate files. It compares files based on their content, NOT on their file names.
   dev_url: https://github.com/pauldreik/rdfind
   doc_url: https://rdfind.pauldreik.se/rdfind.1.html
 
