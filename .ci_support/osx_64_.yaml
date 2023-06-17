@@ -7,13 +7,10 @@ channel_targets:
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '13'
+- '15'
 macos_machine:
 - x86_64-apple-darwin13.4.0
 nettle:
 - '3.8'
-pin_run_as_build:
-  nettle:
-    max_pin: x.x
 target_platform:
 - osx-64

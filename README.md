@@ -1,11 +1,11 @@
-About rdfind
-============
+About rdfind-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rdfind-feedstock/blob/main/LICENSE.txt)
 
 Home: https://rdfind.pauldreik.se
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rdfind-feedstock/blob/main/LICENSE.txt)
 
 Summary: Rdfind is a program that finds duplicate files. It is useful for compressing backup directories or just finding duplicate files. It compares files based on their content, NOT on their file names.
 
@@ -34,14 +34,14 @@ Current build status
               <td>linux_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11082&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rdfind-feedstock?branchName=main&jobName=linux&configuration=linux_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rdfind-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11082&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rdfind-feedstock?branchName=main&jobName=osx&configuration=osx_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rdfind-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
                 </a>
               </td>
             </tr>
