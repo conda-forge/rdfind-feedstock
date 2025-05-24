@@ -17,6 +17,6 @@ cxx_compiler_version:
 macos_machine:
 - x86_64-apple-darwin13.4.0
 nettle:
-- '3.9'
+- '3.10'
 target_platform:
 - osx-64
