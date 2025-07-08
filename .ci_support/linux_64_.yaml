@@ -18,3 +18,5 @@ nettle:
 - '3.10'
 target_platform:
 - linux-64
+xxhash:
+- 0.8.3
