@@ -29,6 +29,7 @@ test:
   commands:
     - rdfind --version
     - rdfind --help
+    - rdfind -checksum xxh128 .
 
 about:
   home: https://rdfind.pauldreik.se
