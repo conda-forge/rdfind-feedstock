@@ -9,7 +9,7 @@ source:
   sha256: bd17dbd9c6c9fc0c0b016b3e77ecf5cd718eee428172c767f429ba30405816d8
 
 build:
-  number: 1
+  number: 2
   skip: true  # [win]
 
 requirements:
@@ -23,6 +23,7 @@ requirements:
     - make
   host:
     - nettle
+    - xxhash
 
 test:
   commands:
