@@ -2,7 +2,7 @@
 rm -f ${SRC_DIR}/VERSION
 
 ./bootstrap.sh
-./configure --prefix=$PREFIX
+./configure --prefix=$PREFIX --with-xxhash
 make -j${CPU_COUNT}
 
 # Need a non coreutils binary for testing
