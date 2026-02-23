@@ -1,4 +1,4 @@
-{% set version = "1.7.0" %}
+{% set version = "1.8.0" %}
 
 package:
   name: rdfind
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://github.com/pauldreik/rdfind/archive/releases/{{ version }}.tar.gz
-  sha256: bd17dbd9c6c9fc0c0b016b3e77ecf5cd718eee428172c767f429ba30405816d8
+  sha256: 6651603138cb91872d3e1628af5b89992f1937a86201645e8387fa42f98bc206
 
 build:
-  number: 2
+  number: 0
   skip: true  # [win]
 
 requirements:
